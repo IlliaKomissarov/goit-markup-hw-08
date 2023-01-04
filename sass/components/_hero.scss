@@ -1,0 +1,55 @@
+.hero {
+    background-image: linear-gradient(var(--gradient),
+            var(--gradient)), url(../images/background-image.jpg);
+    background-color: var(--bg-footer-color);
+    padding: 200px 0;
+    max-width: 1600px;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero .container {
+    width: 696px;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    width: 696px;
+    margin: 0 auto 30px;
+}
+
+.btn {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    display: block;
+    border: 0;
+    padding: 10px 32px;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    @extend %button;
+    &:hover,
+    &:focus {
+            background-color: #188CE8;
+        }
+}
+

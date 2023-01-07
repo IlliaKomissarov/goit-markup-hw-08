@@ -13,10 +13,11 @@
     --border: #eeeeee;
     --border-bottom: #ececec;
     --borders: #afb1b8;
-    --border-form: rgba(33, 33, 33, 0.2);
+
     --background: rgba(255, 255, 255, .1);
 
     --gradient: rgba(47, 48, 58, 0.4);
+
     --gradient-about: rgba(47, 48, 58, 0.8);
 
     --shadow: rgba(0, 0, 0, 0.15);
@@ -25,5 +26,14 @@
 
     --accent-gradient: rgba(33, 150, 243, 0.9);
 
+    --border-form: rgba(33, 33, 33, 0.2);
+
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
+$desktop: "1200px";
+$tablet: "768px";
+$mobile: "480px";
+
+$white-color: #ffffff;

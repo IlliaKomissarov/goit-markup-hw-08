@@ -198,6 +198,6 @@
     transform: translateX(-100%);
 }
 
-.js-menu-container .is-open {
+.js-menu-container.is-open {
     transform: translateX(0);
 }
